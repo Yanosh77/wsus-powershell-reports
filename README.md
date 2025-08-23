@@ -12,7 +12,7 @@
 - Designed for **scheduled runs** (Task Scheduler) and **enterprise environments**
 
 👉 **Get the full script**: [Buy the complete PowerShell script](#)  
-(Replace this link with your Gumroad/Sellfy/website URL.)
+
 
 ---
 
