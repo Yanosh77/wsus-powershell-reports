@@ -13,7 +13,7 @@
 - Sends a **multilingual email** (FR / EN / ES) with attachments
 - Designed for **scheduled runs** (Task Scheduler) and **enterprise environments**
 
-👉 **Get the full script**: [Buy the complete PowerShell script](#)  
+👉 **Get the full script**: [Buy the complete PowerShell script](https://yanosh77.github.io/wsus-powershell-reports/)  
 
 ---
 
