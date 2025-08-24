@@ -1,0 +1,3 @@
+.site-legal-links a { text-decoration: none; }
+.site-legal-links a:hover { text-decoration: underline; }
+.site-legal-links { margin-top: .25rem; opacity: .9; }

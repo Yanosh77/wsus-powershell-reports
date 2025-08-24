@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# pages utilitaires qu’on peut retirer de l’index Google :
+Disallow: /buy-thanks/
+
+Sitemap: https://yanosh77.github.io/wsus-powershell-reports/sitemap.xml

@@ -1,0 +1,33 @@
+.site-legal-links a { text-decoration: none; }
+.site-legal-links a:hover { text-decoration: underline; }
+.site-legal-links { margin-top: .25rem; opacity: .9; }
+/* --- Gallery thumbnails + captions --- */
+.gallery {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  align-items: start;
+}
+.gallery figure {
+  margin: 0;
+  text-align: center;
+}
+.gallery a {
+  display: block;
+  border-radius: .5rem;
+  overflow: hidden;
+  box-shadow: var(--md-shadow-z1);
+}
+.gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 280px;     /* taille des vignettes */
+  margin: 0 auto;
+}
+.gallery figcaption {
+  font-size: .85rem;
+  color: var(--md-default-fg-color--light);
+  margin-top: .35rem;
+}
+
