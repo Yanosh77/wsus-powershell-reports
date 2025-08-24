@@ -1,3 +1,6 @@
+[![Website](https://img.shields.io/badge/website-live-2ea44f?logo=google-chrome&logoColor=white&style=flat-square)](https://yanosh77.github.io/wsus-powershell-reports/)
+[![Buy €5](https://img.shields.io/badge/Buy-%E2%82%AC5-0070ba?logo=paypal&logoColor=white&style=flat-square)](https://yanosh77.github.io/wsus-powershell-reports/buy/)
+
 # WSUS PowerShell Script – Automated Reports (HTML, Email – FR/EN/ES)
 
 > **Vitrine GitHub** – Le script complet est disponible à l'achat (usage commercial autorisé par EULA, redistribution interdite).  
