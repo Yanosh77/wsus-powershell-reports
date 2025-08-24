@@ -23,8 +23,6 @@
 - **KPIs included**: Up-to-date, need updates, errors (D-1 / D-7 deltas optional)  
 - **Outputs**:  
   - `report.html` (responsive, email-friendly)  
-  - `report.csv` (flat table for Excel/BI)  
-  - Optional inline **badges/deltas** for quick status  
 
 ---
 
@@ -52,7 +50,7 @@ See: [`EXCERPT_Wsus-Reports.ps1`](EXCERPT_Wsus-Reports.ps1)
 ## How it works (high level)
 1. Connects to WSUS API (PowerShell) and collects update/computer states  
 2. Computes KPIs and deltas  
-3. Renders HTML + CSV  
+3. Renders HTML 
 4. Sends a multilingual email with attachments  
 
 ---
