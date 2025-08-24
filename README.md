@@ -1,15 +1,15 @@
-# WSUS PowerShell Script – Automated Reports (HTML, CSV, Email – FR/EN/ES)
+# WSUS PowerShell Script – Automated Reports (HTML, Email – FR/EN/ES)
 
 > **Vitrine GitHub** – Le script complet est disponible à l'achat (usage commercial autorisé par EULA, redistribution interdite).  
 > **Full script** available for purchase (commercial use allowed by EULA, redistribution forbidden).
 
-**Keywords**: WSUS, PowerShell, report, HTML, CSV, email, multilingual, FR/EN/ES, sysadmin, Windows Server Update Services, automation, scheduled task, KPI, compliance
+**Keywords**: WSUS, PowerShell, report, HTML, email, multilingual, FR/EN/ES, sysadmin, Windows Server Update Services, automation, scheduled task, KPI, compliance
 
 ---
 
 ## What this script does
 - Generates **WSUS compliance reports** (computers up-to-date / needing updates / errors)
-- Exports **HTML** and **CSV** (ready for Excel/BI)
+- Exports **HTML** (ready for Excel/BI)
 - Sends a **multilingual email** (FR / EN / ES) with attachments
 - Designed for **scheduled runs** (Task Scheduler) and **enterprise environments**
 
