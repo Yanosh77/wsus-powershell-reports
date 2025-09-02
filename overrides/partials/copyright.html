@@ -1,0 +1,33 @@
+{# overrides/partials/copyright.html #}
+<div class="md-copyright">
+  {# Show your configured copyright string if present #}
+  {% if config.copyright %}
+    <div class="md-copyright__highlight">{{ config.copyright }}</div>
+  {% endif %}
+
+  {# Keep the “Made with Material for MkDocs” line unless you disabled it #}
+  {% if config.extra.generator is not defined or config.extra.generator %}
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  {% endif %}
+
+  {# Our legal links, localized by URL prefix #}
+  <p class="site-legal-links">
+    {% set url = page.url if page and page.url else "" %}
+    {% if url.startswith("fr/") %}
+      <a href="{{ base_url }}/fr/policies/privacy/">Confidentialité</a> |
+      <a href="{{ base_url }}/fr/policies/refund/">Remboursement</a> |
+      <a href="{{ base_url }}/fr/policies/tos/">Conditions</a>
+    {% elif url.startswith("es/") %}
+      <a href="{{ base_url }}/es/policies/privacy/">Privacidad</a> |
+      <a href="{{ base_url }}/es/policies/refund/">Reembolso</a> |
+      <a href="{{ base_url }}/es/policies/tos/">Términos</a>
+    {% else %}
+      <a href="{{ base_url }}/policies/privacy/">Privacy</a> |
+      <a href="{{ base_url }}/policies/refund/">Refund</a> |
+      <a href="{{ base_url }}/policies/tos/">Terms</a>
+    {% endif %}
+  </p>
+</div>

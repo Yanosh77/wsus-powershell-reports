@@ -1,0 +1,74 @@
+site_name: Sysadmin Scripts by Yann
+site_description: Scripts PowerShell professionnels (WSUS, maintenance, reporting). Exports HTML/CSV et email multilingue.
+site_author: Yann Gilles
+site_url: https://yanosh77.github.io/wsus-powershell-reports/
+repo_url: https://github.com/Yanosh77/wsus-powershell-reports
+copyright: "© 2025 Yann Gilles — All rights reserved."
+
+use_directory_urls: true
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.blocks.caption    
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - meta
+extra_css:
+  - stylesheets/extra.css   
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - content.code.copy
+    - toc.follow
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+plugins:
+  - search
+  - glightbox
+  - minify:                      
+      minify_html: true
+      minify_js: true
+      minify_css: true
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Yanosh77/wsus-powershell-reports
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/profile.php?id=61579629546914
+
+nav:
+  - Home: index.md
+  - Scripts:
+      - WSUS Report: scripts/wsus-reports.md  
+  - Policies:
+      - Refund: policies/refund.md
+      - Terms/EULA: policies/tos.md
+      - Privacy: policies/privacy.md
+  - Contact: contact.md    
+
